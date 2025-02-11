@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta name="description" content="making website using html and css only">
+        <title>Maths</title>
+        <style>
+            .bg-image{
+                background-image: url("https://i.pinimg.com/736x/2c/d9/1a/2cd91ad3b8e56078a8728b89acd4433d.jpg");
+                background-size: cover;
+                background-position: center;
+            background-repeat: no-repeat;
+            height: 650px;
+            background-size: 1000px 650px;
+            background-attachment: scroll;
+            }
+            .text{
+                font-size:50px;
+                position: absolute;top: 60px;left:37%;
+                color:rgb(6, 77, 31);
+            }
+            .text1{
+                position:absolute;top:150px;left:250px;
+            }
+            table,th,td{
+                border:1px solid;
+                border-collapse: collapse;
+                
+                
+            }
+            thead{
+                height:50px;
+            }
+          a{
+            text-decoration: none;
+          }
+           a:hover{
+            color: rgba(197, 21, 21, 0.719);
+            text-shadow: 1px 1px rgba(0, 0, 0, 0.5); 
+           }
+           td{
+            text-align: center;
+           }
+             </style>
+        </head>
+
+            <body>
+                <div class="bg-image">
+                    <div class="text">Mathematics</div>
+                    <div class="text1">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Chapter</th>
+                                    <th>Topic</th>
+                                </tr>
+                            </thead>
+                            <tr>
+                                <td>1</td>
+                                <td width="550px"><a href="#1">What is Long,What is Round?</a></td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td><a href="#2">Counting in Groups</a></td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td><a href="#3">How Much Can You Carry?</a></td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td><a href="#4">Counting in Tens</a></td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td><a href="#5">Patterns</a></td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td><a href="#6">Footprints</a></td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td><a href="#7">Jugs and Mugs</a></td>
+                            </tr>
+                            <tr>
+                                <td>8</td>
+                                <td><a href="#8">Tens and Ones</a></td>
+                            </tr>
+                            <tr>
+                                <td>9</td>
+                                <td><a href="#9">My Funday</a></td>
+                            </tr>
+                            <tr>
+                                <td>10</td>
+                                <td><a href="#10">Lines and Planes</a></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </body>
+        
+            </html>
